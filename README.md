@@ -8,7 +8,7 @@ Delegate calls are necessary when dealing with upgradeable smart contracts
 
 - Contract two initiates a delegate call to the set1 function of contract one
 
-- Then set1 function of implements the logic and changes state variables of contract two
+- Then set1 function of contract one implements the logic and changes state variables of contract two
 
 ### Steps
 
