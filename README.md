@@ -14,4 +14,4 @@ Delegate calls are necessary when dealing with upgradeable smart contracts
 
 - Deploy both contracts
 
-- Copy the address of contract onw and paste it in the address parameter of contract two's set1 function
+- Copy the address of contract one and paste it in the address parameter of contract two's set1 function
