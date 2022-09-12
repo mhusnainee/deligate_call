@@ -19,8 +19,6 @@ contract two {
     function set1(address _a, uint _num) public {
         (bool success, ) = _a.delegatecall(abi.encodeWithSelector(one.set1.selector, _num));
         require(success, "Call failed");
-        //_a.set1(num1);
     }
-
 
 }
